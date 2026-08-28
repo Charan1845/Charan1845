@@ -1,6 +1,6 @@
 <h1 align="center">Hi, I'm Charan 👋</h1>
 
-<h3 align="center">Python · Data Applications · DSA &amp; System Design</h3>
+<h3 align="center">Python · Data Visualisation · Interactive Dashboards</h3>
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=22&pause=1200&color=38BDAE&center=true&vCenter=true&width=620&lines=Building+data-driven+web+applications;Turning+messy+datasets+into+decisions;Solving+DSA+problems;Learning+system+design" alt="Typing SVG" />
