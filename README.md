@@ -81,7 +81,7 @@ under the mentorship of Mousami Shrivastava.
 - Interactive filtering and data exploration
 - Downloadable dataset for further analysis
 
-[![View Repository](https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Charan1845/-Infosys-Springboard-Virtual-Internship-6.0)
+[![View Repository](https://img.shields.io/badge/View%20Repository-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Charan1845/healthcare-analytics-dashboard)
 
 ---
 
