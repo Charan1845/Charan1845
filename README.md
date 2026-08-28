@@ -1,8 +1,8 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Charan&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=Python%20%C2%B7%20Data%20Applications%20%C2%B7%20Applied%20AI%2FML&descAlignY=52&descSize=18" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Charan&fontSize=70&fontColor=ffffff&animation=fadeIn&fontAlignY=32&desc=Python%20%C2%B7%20Data%20Applications%20%C2%B7%20DSA%20%26%20System%20Design&descAlignY=52&descSize=18" width="100%" />
 
-<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=22&pause=1200&color=38BDAE&center=true&vCenter=true&width=620&lines=Building+data-driven+web+applications;Turning+messy+datasets+into+decisions;Streamlit+%C2%B7+Pandas+%C2%B7+Plotly+%C2%B7+Flask;Currently+learning+applied+AI%2FML" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=22&pause=1200&color=38BDAE&center=true&vCenter=true&width=620&lines=Building+data-driven+web+applications;Turning+messy+datasets+into+decisions;Solving+DSA+problems+in+Java;Learning+system+design" alt="Typing SVG" />
 
 <br><br>
 
@@ -20,15 +20,15 @@
 
 ```yaml
 name:      Charan
-focus:     Data applications in Python
+focus:     DSA, system design
 building:  Interactive dashboards and analytics tools
-learning:  Applied machine learning, backend development
+learning:  Java DSA, system design, backend development
 approach:  Fewer projects, finished properly
 ```
 
 - 📊 &nbsp;I build **data-driven web applications** — mostly turning unstructured datasets into interfaces people can explore and make decisions with.
 - 🔬 &nbsp;Completed the **Infosys Springboard Virtual Internship 6.0**, delivering a healthcare operations analytics platform as the capstone.
-- 🧠 &nbsp;Currently going deeper on **backend development** and **applied ML**.
+- 🧠 &nbsp;Currently going deeper on **DSA in Java** and **system design**.
 - 🎯 &nbsp;Focused on shipping fewer, more complete projects rather than many partial ones.
 
 <br>
@@ -144,7 +144,7 @@ MILESTONE 1  ████████████████████  Pytho
 MILESTONE 2  ████████████████████  Data analysis & visualisation      ✅
 MILESTONE 3  ████████████████████  Professional internship            ✅
 MILESTONE 4  ███████████████░░░░░  Full-stack applications            🚧
-MILESTONE 5  ████████░░░░░░░░░░░░  Applied AI/ML                      🚧
+MILESTONE 5  ████████░░░░░░░░░░░░  DSA & system design                🚧
 MILESTONE 6  ████░░░░░░░░░░░░░░░░  Production-level products          ⏳
 ```
 
@@ -158,9 +158,9 @@ MILESTONE 6  ████░░░░░░░░░░░░░░░░  Produ
 
 | Area | Focus |
 |:---|:---|
-| 🧮 &nbsp;**DSA** | Data structures, algorithms, problem solving |
+| 🧮 &nbsp;**DSA in Java** | Data structures, algorithms, problem solving |
 | ⚙️ &nbsp;**Backend** | REST API design, databases, application architecture |
-| 🤖 &nbsp;**Applied ML** | Model training, evaluation, deployment |
+| 🏗️ &nbsp;**System Design** | Scalability, architecture patterns, trade-offs |
 | 🚢 &nbsp;**Shipping** | Taking projects through to a deployable, documented state |
 
 </div>
