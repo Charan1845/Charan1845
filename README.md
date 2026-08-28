@@ -44,7 +44,7 @@ approach:  Fewer projects, finished properly
 
 ## 🚀 Featured Work
 
-### 🌊 [GeoWater Analysis](https://github.com/Charan1845/geowater-analysis) — *final year project*
+### 🌊 [GeoWater Analysis](https://github.com/Charan1845/geowater-analysis)
 
 > *Geospatial water resource monitoring for Telangana*
 
