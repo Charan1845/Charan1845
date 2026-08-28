@@ -18,7 +18,8 @@ learning:  DSA, System Design, backend development
 approach:  Fewer projects, finished properly
 ```
 
-- 📊 I build **data-driven web applications** — mostly turning unstructured datasets into interfaces people can explore and make decisions with.
+- 📊 I build **data-driven web applications** — mostly turning unstructured public datasets into interfaces people can explore and make decisions with.
+- 🗺️ Recent work is **geospatial**: mapping drought risk across Telangana and healthcare capacity across India.
 - 🔬 Completed the **Infosys Springboard Virtual Internship 6.0**, delivering a healthcare operations analytics platform as the capstone.
 - 🧠 Currently going deeper on **DSA** and **system design**.
 - 🎯 Focused on shipping fewer, more complete projects rather than many partial ones.
@@ -31,7 +32,7 @@ approach:  Fewer projects, finished properly
 `Python` · `Java` · `JavaScript` · `SQL` · `C`
 
 **Data & Visualisation**  
-`Pandas` · `NumPy` · `Plotly` · `Matplotlib` · `Seaborn`
+`Pandas` · `NumPy` · `Plotly` · `Matplotlib` · `Seaborn` · `GeoPandas`
 
 **Web & Frameworks**  
 `Streamlit` · `Flask` · `OpenCV` · `HTML5` · `CSS3`
@@ -43,7 +44,18 @@ approach:  Fewer projects, finished properly
 
 ## 🚀 Featured Work
 
-### 🏥 [Healthcare Operations Analytics Dashboard](https://github.com/Charan1845/healthcare-analytics-dashboard)
+### 🌊 [GeoWater Analysis](https://github.com/Charan1845/geowater-analysis) — *final year project*
+
+> *Geospatial water resource monitoring for Telangana*
+
+`Python` · `Streamlit` · `GeoPandas` · `Plotly`
+
+- **Problem** — Rainfall alone is a misleading drought signal. A district with poor rainfall but large reservoirs may be secure, while one with good rainfall and no storage stays vulnerable.
+- **Approach** — Normalised monsoon rainfall and dam storage capacity to a 0–100 scale and combined them into a single drought index, so districts can be ranked against each other.
+- **Features** — Interactive Plotly choropleth over district boundaries, click-through drill-down per district, covering all 33 Telangana districts across 2024–2025.
+- **Finding** — Districts around Hyderabad with negligible reservoir storage score worst consistently, leaving them wholly dependent on same-year rainfall.
+
+### 🏥 [PulseScore](https://github.com/Charan1845/healthcare-analytics-dashboard)
 
 > *Interactive analytics platform for healthcare infrastructure planning across India*
 
