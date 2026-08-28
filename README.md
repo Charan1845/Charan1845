@@ -3,7 +3,7 @@
 <h3 align="center">Python · Data Applications · DSA &amp; System Design</h3>
 
 <p align="center">
-  <em>Turning messy datasets into interfaces people can actually make decisions with.</em>
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=22&pause=1200&color=38BDAE&center=true&vCenter=true&width=620&lines=Building+data-driven+web+applications;Turning+messy+datasets+into+decisions;Solving+DSA+problems;Learning+system+design" alt="Typing SVG" />
 </p>
 
 ---
@@ -12,9 +12,9 @@
 
 ```yaml
 name:      Charan
-focus:     DSA, system design
+focus:     DSA, System Design
 building:  Interactive dashboards and analytics tools
-learning:  DSA, system design, backend development
+learning:  DSA, System Design, backend development
 approach:  Fewer projects, finished properly
 ```
 
@@ -88,7 +88,7 @@ MILESTONE 1  ████████████████████  Pytho
 MILESTONE 2  ████████████████████  Data analysis & visualisation      ✅
 MILESTONE 3  ████████████████████  Professional internship            ✅
 MILESTONE 4  ███████████████░░░░░  Full-stack applications            🚧
-MILESTONE 5  ████████░░░░░░░░░░░░  DSA & system design                🚧
+MILESTONE 5  ████████░░░░░░░░░░░░  DSA & System Design                🚧
 MILESTONE 6  ████░░░░░░░░░░░░░░░░  Production-level products          ⏳
 ```
 
