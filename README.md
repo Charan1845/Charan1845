@@ -35,7 +35,7 @@ approach:  Fewer projects, finished properly
 `Pandas` · `NumPy` · `Plotly` · `Matplotlib` · `Seaborn` · `GeoPandas`
 
 **Web & Frameworks**  
-`Streamlit` · `Flask` · `OpenCV` · `HTML5` · `CSS3`
+`Streamlit` · `Flask` · `TensorFlow` · `OpenCV` · `HTML5` · `CSS3`
 
 **Tools**  
 `Git` · `GitHub` · `VS Code` · `Jupyter`
@@ -66,13 +66,16 @@ approach:  Fewer projects, finished properly
 - **Features** — Bed capacity and hospital-type analysis, emergency readiness scoring, region-level geographic coverage comparison, interactive filtering, dataset export.
 - **Context** — Capstone project for the Infosys Springboard Virtual Internship 6.0, mentored by Mousami Shrivastava.
 
-### 🔬 [Age & Gender Recognition](https://github.com/Charan1845/Age-and-Gender-Recognition) — *rebuilding*
+### 🔬 [Age & Gender Detection](https://github.com/Charan1845/Age-and-Gender-Recognition)
 
-> *Computer-vision service estimating age and gender from facial images*
+> *Estimates age and gender from a photo or a live camera capture*
 
-`Flask` · `OpenCV` · `Python`
+`Python` · `Flask` · `OpenCV` · `TensorFlow` · `JavaScript`
 
-Flask application with live camera capture and image-upload routes, backed by an OpenCV detection pipeline. Currently being reconstructed — the repository holds the application layer while I restore the model and template files.
+- **Pipeline** — YuNet locates faces and returns five landmarks, each face is rotated onto a level eye axis, then a fine-tuned MobileNetV2 predicts age as a number and gender.
+- **Detector choice** — YuNet over RetinaFace and MTCNN: within a few points on accuracy, roughly 100× faster on CPU, 340 KB, and no extra dependency. Accuracy that cannot run in real time is not accuracy you have.
+- **Train/serve consistency** — the training set is re-cropped with the same detector the app uses at inference, so the model does not learn on one distribution and predict on another.
+- **Full-stack** — Flask JSON API with a plain HTML/CSS/JS frontend; camera capture runs in the browser via `getUserMedia` so it still works when hosted.
 
 ### 🛒 [E-Commerce UI](https://github.com/Charan1845/ecommerce-website) — *in progress*
 
