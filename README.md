@@ -13,7 +13,7 @@
 ```yaml
 name:      Charan
 focus:     DSA, System Design
-building:  Interactive dashboards and analytics tools
+building:  AI agents, interactive dashboards, and analytics tools
 learning:  DSA, System Design, backend development
 approach:  Fewer projects, finished properly
 ```
@@ -43,6 +43,19 @@ approach:  Fewer projects, finished properly
 ---
 
 ## 🚀 Featured Work
+
+### 🧾 [LEKHA](https://github.com/Charan1845/lekha)
+
+> *AI finance controller for multi-source settlement reconciliation — built for Razorpay merchants*
+
+`Python` · `Llama 3.2 via Ollama` · `JavaScript` · `pytest`
+
+- **Problem** — Razorpay settles orders in bundled lump sums days later, net of fees and GST. A merchant's bank statement shows one credit with no indication of which orders it covers — someone reconciles that by hand, daily.
+- **Approach** — Tested the AI on the actual matching first: asking an LLM which orders summed to a bank line scored 0/9, even with retries. Deterministic Python scored 3/3, instantly. So code does every calculation; the LLM only writes the explanation for lines it can't resolve.
+- **Evaluation** — A sealed answer key the agent is never allowed to open. 93.1% settlement match rate on held-out months, 0 false positives, every duplicate charge and stray credit caught. A 248-run sensitivity analysis over the assumed parameters gives the honest range: 76.3%–98.1%.
+- **Engineering** — 127 tests, including one that runs identical inputs through both the Python and browser reconciliation engines and fails on any disagreement. Zero third-party Python dependencies. CI on GitHub Actions.
+
+---
 
 ### 🌊 [GeoWater Analysis](https://github.com/Charan1845/geowater-analysis)
 
