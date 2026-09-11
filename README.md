@@ -37,6 +37,9 @@ approach:  Fewer projects, finished properly
 **Web & Frameworks**  
 `Streamlit` · `Flask` · `TensorFlow` · `OpenCV` · `HTML5` · `CSS3`
 
+**Backend & Databases**  
+`Node.js` · `Express` · `REST APIs` · `PostgreSQL` · `SQLite`
+
 **Tools**  
 `Git` · `GitHub` · `VS Code` · `Jupyter`
 
@@ -90,13 +93,16 @@ approach:  Fewer projects, finished properly
 - **Train/serve consistency** — the training set is re-cropped with the same detector the app uses at inference, so the model does not learn on one distribution and predict on another.
 - **Full-stack** — Flask JSON API with a plain HTML/CSS/JS frontend; camera capture runs in the browser via `getUserMedia` so it still works when hosted.
 
-### 🛒 [E-Commerce UI](https://github.com/Charan1845/ecommerce-website) — *in progress*
+### 🛒 [DevGear](https://github.com/Charan1845/ecommerce-website) — [live](https://devgear.onrender.com)
 
-> *Front-end storefront built from scratch without a framework*
+> *An online shop where the last item in stock can only be sold once*
 
-`HTML5` · `CSS3` · `JavaScript`
+`Node.js` · `Express` · `PostgreSQL` · `JavaScript` · `REST`
 
-Authentication screens complete. Catalogue, product pages and cart are next.
+- **Problem** — Most shopping-cart projects read the stock, check it is enough, then subtract it. Between the read and the write a second buyer does the same read: both see one left, both are told yes, and the shop sells an item it does not have. It only appears under load, which is why it usually ships.
+- **Approach** — Checkout does the check and the subtraction in a single statement, so the database tests the condition at the moment it writes; zero rows changed is how the second buyer learns they lost. The whole checkout runs in one transaction, so an order that fails halfway puts back the stock it had already taken.
+- **Evaluation** — A test fires two simultaneous checkouts at the same last item and asserts that exactly one succeeds, that stock lands on zero rather than minus one, and that one order exists. Against PostgreSQL those requests genuinely overlap rather than being serialised by the runtime. 37 tests in all, covering pricing rules, access control, login rate limiting and payment signature verification.
+- **Engineering** — REST API behind a login, bcrypt hashing, JWT in an httpOnly cookie, role-separated owner dashboard, cart and order history. SQLite locally and PostgreSQL deployed, behind one interface, so a fresh clone runs with nothing installed. Deployed on Render with a Neon database; first boot creates and seeds its own schema.
 
 ---
 
