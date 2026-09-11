@@ -11,11 +11,11 @@
 ## 👨‍💻 About Me
 
 ```yaml
-name:      Charan
-focus:     DSA, System Design
-building:  AI agents, interactive dashboards, and analytics tools
-learning:  DSA, System Design, backend development
-approach:  Fewer projects, finished properly
+Name:      Charan
+Focus:     DSA, System Design
+Building:  AI agents, interactive dashboards, and analytics tools
+Learning:  DSA, System Design, backend development
+Approach:  Fewer projects, finished properly
 ```
 
 - 📊 I build **data-driven web applications** — mostly turning unstructured public datasets into interfaces people can explore and make decisions with.
