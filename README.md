@@ -115,24 +115,24 @@ Built the Healthcare Operations Analytics Dashboard as the capstone deliverable,
 
 ---
 
-## 📈 Roadmap
+## 📈 Where this is going
 
-```text
-MILESTONE 1  ████████████████████  Python & web fundamentals          ✅
-MILESTONE 2  ████████████████████  Data analysis & visualisation      ✅
-MILESTONE 3  ████████████████████  Professional internship            ✅
-MILESTONE 4  ███████████████░░░░░  Full-stack applications            🚧
-MILESTONE 5  ████████░░░░░░░░░░░░  DSA & System Design                🚧
-MILESTONE 6  ████░░░░░░░░░░░░░░░░  Production-level products          ⏳
-```
+<sub>Fewer projects, finished properly — so every line here is something that exists, not something I read about.</sub>
+
+| | Stage | What it actually produced |
+|:--:|:---|:---|
+| ✅ | Python, data analysis, visualisation | Two interactive dashboards, and a drought index mapped across Telangana |
+| ✅ | A professional internship | Infosys Springboard 6.0 — healthcare analytics capstone delivered |
+| ✅ | Machine learning, actually served | Age & Gender — detector chosen on latency, not only accuracy, and it runs in a browser |
+| ✅ | Full stack, deployed | [DevGear](https://devgear.onrender.com) — REST API, PostgreSQL, payments, 40 tests, live |
+| 🚧 | DSA and system design | The gap between *it works* and *it holds up under load* |
+| ⏳ | Production habits | CI, observability, load testing — applied to the projects that already exist rather than to new ones |
 
 ---
 
-## 📚 Currently Learning
-
-| Area | Focus |
-|:---|:---|
-| 🧮 **DSA** | Data structures, algorithms, problem solving |
-| 🏗️ **System Design** | Scalability, architecture patterns, trade-offs |
-| ⚙️ **Backend** | REST API design, databases, application architecture |
-| 🚢 **Shipping** | Taking projects through to a deployable, documented state |
+<p align="center">
+  <sub>
+    <a href="https://github.com/Charan1845?tab=repositories">Repositories</a> &nbsp;·&nbsp;
+    <a href="https://devgear.onrender.com">DevGear, live</a>
+  </sub>
+</p>
