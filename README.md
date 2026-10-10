@@ -13,8 +13,8 @@
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Charan1845/Charan1845/main/profile-3d-contrib/profile-night-green.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Charan1845/Charan1845/main/profile-3d-contrib/profile-green.svg">
-    <img src="https://raw.githubusercontent.com/Charan1845/Charan1845/main/profile-3d-contrib/profile-green.svg" alt="3D contribution graph" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Charan1845/Charan1845/main/profile-3d-contrib/profile-green-animate.svg">
+    <img src="https://raw.githubusercontent.com/Charan1845/Charan1845/main/profile-3d-contrib/profile-green-animate.svg" alt="3D contribution graph" />
   </picture>
 </p>
 
