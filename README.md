@@ -8,6 +8,18 @@
 
 ---
 
+## 📅 Contribution Graph, in 3D
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Charan1845/Charan1845/main/profile-3d-contrib/profile-night-green.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Charan1845/Charan1845/main/profile-3d-contrib/profile-green.svg">
+    <img src="https://raw.githubusercontent.com/Charan1845/Charan1845/main/profile-3d-contrib/profile-green.svg" alt="3D contribution graph" />
+  </picture>
+</p>
+
+---
+
 ## 👨‍💻 About Me
 
 ```yaml
@@ -178,6 +190,7 @@ Built the Healthcare Operations Analytics Dashboard as the capstone deliverable,
 | ✅ | Machine learning, actually served | Age & Gender — detector chosen on latency, not only accuracy, and it runs in a browser |
 | ✅ | Full stack, deployed | [DevGear](https://devgear.onrender.com) — REST API, PostgreSQL, payments, 149 tests, live |
 | 🚧 | DSA and system design | The gap between *it works* and *it holds up under load* |
+| 🚧 | CV & forecasting, from fundamentals | [Crowdcast](https://github.com/Charan1845/crowdcast) — learning CV/ML in public, one concept applied and logged per day |
 | ⏳ | Production habits | CI, observability, load testing — applied to the projects that already exist rather than to new ones |
 
 ---
