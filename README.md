@@ -190,6 +190,13 @@ Built the Healthcare Operations Analytics Dashboard as the capstone deliverable,
   <img height="165em" src="https://streak-stats.demolab.com/?user=Charan1845&theme=dark&hide_border=true&background=00000000&ring=38BDAE&fire=38BDAE&currStreakLabel=38BDAE&sideLabels=FFFFFF&dates=8B949E" alt="GitHub streak stats" />
 </p>
 
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Charan1845/Charan1845/output/arcade.svg">
+    <img src="https://raw.githubusercontent.com/Charan1845/Charan1845/output/arcade-light.svg" width="100%" alt="My contribution graph as an arcade game, a new one daily" />
+  </picture>
+</p>
+
 ---
 
 <p align="center">

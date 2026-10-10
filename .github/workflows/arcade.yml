@@ -1,0 +1,29 @@
+name: Arcade
+
+on:
+  schedule:
+    - cron: "0 3 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  arcade:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: Nicsilver/commit-arcade@v1
+        with:
+          outputs: |
+            dist/arcade.svg?game=daily&theme=github-dark
+            dist/arcade-light.svg?game=daily&theme=github-light
+
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
