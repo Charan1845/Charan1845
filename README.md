@@ -186,7 +186,7 @@ Built the Healthcare Operations Analytics Dashboard as the capstone deliverable,
 ## 🔥 GitHub Activity
 
 <p align="center">
-  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=Charan1845&show_icons=true&theme=dark&hide_border=true&bg_color=00000000&title_color=38BDAE&icon_color=38BDAE&text_color=FFFFFF" alt="GitHub stats" />
+  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=Charan1845&show_icons=true&theme=dark&hide_border=true&bg_color=00000000&title_color=38BDAE&icon_color=38BDAE&text_color=FFFFFF&hide=stars" alt="GitHub stats" />
   <img height="165em" src="https://streak-stats.demolab.com/?user=Charan1845&theme=dark&hide_border=true&background=00000000&ring=38BDAE&fire=38BDAE&currStreakLabel=38BDAE&sideLabels=FFFFFF&dates=8B949E" alt="GitHub streak stats" />
 </p>
 
