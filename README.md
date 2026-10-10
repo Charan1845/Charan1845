@@ -8,14 +8,6 @@
 
 ---
 
-## 🔥 Streak Stats
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=Charan1845&theme=dark&hide_border=true&background=00000000&ring=38BDAE&fire=38BDAE&currStreakLabel=38BDAE&sideLabels=FFFFFF&dates=8B949E" alt="GitHub streak stats" />
-</p>
-
----
-
 ## 👨‍💻 About Me
 
 ```yaml
@@ -188,6 +180,15 @@ Built the Healthcare Operations Analytics Dashboard as the capstone deliverable,
 | 🚧 | DSA and system design | The gap between *it works* and *it holds up under load* |
 | 🚧 | CV & forecasting, from fundamentals | [Crowdcast](https://github.com/Charan1845/crowdcast) — learning CV/ML in public, one concept applied and logged per day |
 | ⏳ | Production habits | CI, observability, load testing — applied to the projects that already exist rather than to new ones |
+
+---
+
+## 🔥 GitHub Activity
+
+<p align="center">
+  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=Charan1845&show_icons=true&theme=dark&hide_border=true&bg_color=00000000&title_color=38BDAE&icon_color=38BDAE&text_color=FFFFFF" alt="GitHub stats" />
+  <img height="165em" src="https://streak-stats.demolab.com/?user=Charan1845&theme=dark&hide_border=true&background=00000000&ring=38BDAE&fire=38BDAE&currStreakLabel=38BDAE&sideLabels=FFFFFF&dates=8B949E" alt="GitHub streak stats" />
+</p>
 
 ---
 
