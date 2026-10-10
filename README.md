@@ -12,7 +12,7 @@
 
 <p align="center">
 <!--LATEST_ACTIVITY_START-->
-<sub>Last pushed to: loading…</sub>
+<sub>Last pushed to: [`Charan1845/crowdcast`](https://github.com/Charan1845/crowdcast) — 1 days ago</sub>
 <!--LATEST_ACTIVITY_END-->
 </p>
 
