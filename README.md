@@ -8,14 +8,10 @@
 
 ---
 
-## 📅 Contribution Graph, in 3D
+## 🔥 Streak Stats
 
 <p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Charan1845/Charan1845/main/profile-3d-contrib/profile-night-green.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Charan1845/Charan1845/main/profile-3d-contrib/profile-green-animate.svg">
-    <img src="https://raw.githubusercontent.com/Charan1845/Charan1845/main/profile-3d-contrib/profile-green-animate.svg" alt="3D contribution graph" />
-  </picture>
+  <img src="https://streak-stats.demolab.com/?user=Charan1845&theme=dark&hide_border=true&background=00000000&ring=38BDAE&fire=38BDAE&currStreakLabel=38BDAE&sideLabels=FFFFFF&dates=8B949E" alt="GitHub streak stats" />
 </p>
 
 ---
