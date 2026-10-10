@@ -31,12 +31,15 @@ dt = datetime.datetime.fromisoformat(created_at.replace("Z", "+00:00"))
 now = datetime.datetime.now(datetime.timezone.utc)
 secs = (now - dt).total_seconds()
 
+def plural(n, unit):
+    return f"{n} {unit}{'s' if n != 1 else ''} ago"
+
 if secs < 3600:
-    rel = f"{max(1, int(secs // 60))} minutes ago"
+    rel = plural(max(1, int(secs // 60)), "minute")
 elif secs < 86400:
-    rel = f"{int(secs // 3600)} hours ago"
+    rel = plural(int(secs // 3600), "hour")
 else:
-    rel = f"{int(secs // 86400)} days ago"
+    rel = plural(int(secs // 86400), "day")
 
 line = f"<sub>Last pushed to: [`{repo}`](https://github.com/{repo}) — {rel}</sub>"
 
