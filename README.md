@@ -6,16 +6,6 @@
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=22&pause=1200&color=38BDAE&center=true&vCenter=true&width=620&lines=Building+data-driven+web+applications;Turning+messy+datasets+into+decisions;Solving+DSA+problems;Learning+system+design" alt="Typing SVG" />
 </p>
 
-<p align="center">
-  <img src="https://img.shields.io/badge/Open%20to-Work-38BDAE?style=for-the-badge" alt="Open to work" />
-</p>
-
-<p align="center">
-<!--LATEST_ACTIVITY_START-->
-<sub>Last pushed to: [`Charan1845/Charan1845`](https://github.com/Charan1845/Charan1845) — 18 hours ago</sub>
-<!--LATEST_ACTIVITY_END-->
-</p>
-
 ---
 
 ## 👨‍💻 About Me
@@ -70,8 +60,6 @@ Approach:  Fewer projects, finished properly
 
 ### 🧾 [LEKHA](https://github.com/Charan1845/lekha) &nbsp;·&nbsp; <sub>93.1% match rate · 0 false positives · 127 tests</sub>
 
-[![tests](https://img.shields.io/github/actions/workflow/status/Charan1845/lekha/ci.yml?branch=main&style=for-the-badge&label=tests&color=38BDAE)](https://github.com/Charan1845/lekha/actions/workflows/ci.yml)
-
 > *AI finance controller for multi-source settlement reconciliation — built for Razorpay merchants*
 
 `Python` · `Llama 3.2 via Ollama` · `JavaScript` · `pytest`
@@ -91,8 +79,6 @@ Approach:  Fewer projects, finished properly
 ---
 
 ### 🛒 [DevGear](https://github.com/Charan1845/ecommerce-website) &nbsp;·&nbsp; [**live demo**](https://devgear.onrender.com) &nbsp;·&nbsp; <sub>149 tests · deployed</sub>
-
-[![tests](https://img.shields.io/github/actions/workflow/status/Charan1845/ecommerce-website/ci.yml?branch=main&style=for-the-badge&label=tests&color=38BDAE)](https://github.com/Charan1845/ecommerce-website/actions/workflows/ci.yml)
 
 > *An online shop where the last item in stock can only be sold once*
 
@@ -197,18 +183,10 @@ Built the Healthcare Operations Analytics Dashboard as the capstone deliverable,
 
 ---
 
-## 🔥 GitHub Activity
+## 🔥 Streak Stats
 
 <p align="center">
-  <img height="165em" src="https://github-readme-stats.vercel.app/api?username=Charan1845&show_icons=true&theme=dark&hide_border=true&bg_color=00000000&title_color=38BDAE&icon_color=38BDAE&text_color=FFFFFF&hide=stars" alt="GitHub stats" />
-  <img height="165em" src="https://streak-stats.demolab.com/?user=Charan1845&theme=dark&hide_border=true&background=00000000&ring=38BDAE&fire=38BDAE&currStreakLabel=38BDAE&sideLabels=FFFFFF&dates=8B949E" alt="GitHub streak stats" />
-</p>
-
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Charan1845/Charan1845/output/arcade.svg">
-    <img src="https://raw.githubusercontent.com/Charan1845/Charan1845/output/arcade-light.svg" width="100%" alt="My contribution graph as an arcade game, a new one daily" />
-  </picture>
+  <img src="https://streak-stats.demolab.com/?user=Charan1845&theme=dark&hide_border=true&background=00000000&ring=38BDAE&fire=38BDAE&currStreakLabel=38BDAE&sideLabels=FFFFFF&dates=8B949E" alt="GitHub streak stats" />
 </p>
 
 ---
