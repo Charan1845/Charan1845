@@ -1,9 +1,9 @@
 <h1 align="center">Hi, I'm Charan 👋</h1>
 
-<h3 align="center">Python · Data Visualisation · Interactive Dashboards</h3>
+<h3 align="center">Python · Data Visualisation · Interactive Dashboards · Voice & MCP</h3>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=22&pause=1200&color=38BDAE&center=true&vCenter=true&width=620&lines=Building+data-driven+web+applications;Turning+messy+datasets+into+decisions;Solving+DSA+problems;Learning+system+design" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=22&pause=1200&color=38BDAE&center=true&vCenter=true&width=620&lines=Building+data-driven+web+applications;Turning+messy+datasets+into+decisions;Building+MCP+servers+for+Alexa%2B;Solving+DSA+problems;Learning+system+design" alt="Typing SVG" />
 </p>
 
 ---
@@ -13,50 +13,90 @@
 ```yaml
 Name:      Charan
 Focus:     DSA, System Design
-Building:  AI agents, interactive dashboards, and analytics tools
+Building:  AI agents, MCP servers, interactive dashboards, and analytics tools
 Learning:  DSA, System Design, backend development
 Approach:  Fewer projects, finished properly
 ```
 
 - 📊 I build **data-driven web applications** — mostly turning unstructured public datasets into interfaces people can explore and make decisions with.
-- 🗺️ Recent work is **geospatial**: mapping drought risk across Telangana and healthcare capacity across India.
+- 🎙️ Latest work is **voice + MCP**: an Alexa+ add-on that guides families through engineering admissions using official cutoff data.
+- 🗺️ Earlier work is **geospatial**: mapping drought risk across Telangana and healthcare capacity across India.
 - 🔬 Completed the **Infosys Springboard Virtual Internship 6.0**, delivering a healthcare operations analytics platform as the capstone.
 - 🧠 Currently going deeper on **DSA** and **system design**.
 - 🎯 Focused on shipping fewer, more complete projects rather than many partial ones.
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Featured Work at a Glance
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🎓 <a href="https://github.com/Charan1845/admitpath">AdmitPath</a></h3>
+      <sub><b>NEW</b> · Alexa+ add-on · MCP server</sub>
+      <p>Tells a family which engineering colleges their child can realistically get — by voice, from official JoSAA and TG EAPCET cutoffs.</p>
+      <sub>33,560 official cutoffs · 15 MCP tools · 48 tests</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🧾 <a href="https://github.com/Charan1845/lekha">LEKHA</a></h3>
+      <sub>AI finance controller</sub>
+      <p>Reconciles Razorpay settlements against bank statements; code does the maths, the LLM only explains.</p>
+      <sub>93.1% match rate · 0 false positives · 127 tests</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🛒 <a href="https://github.com/Charan1845/ecommerce-website">DevGear</a></h3>
+      <sub>Full stack · <a href="https://devgear.onrender.com">live demo</a></sub>
+      <p>An online shop where the last item in stock can only be sold once, even under simultaneous checkouts.</p>
+      <sub>149 tests · deployed on Render + Neon</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🔬 <a href="https://github.com/Charan1845/Age-and-Gender-Recognition">Age & Gender Detection</a></h3>
+      <sub>Computer vision</sub>
+      <p>Estimates age and gender from a photo or live camera capture, with a detector chosen for real-time CPU speed.</p>
+      <sub>runs on CPU, in a browser</sub>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🌊 <a href="https://github.com/Charan1845/hydro-vision">Hydro Vision</a></h3>
+      <sub>Geospatial</sub>
+      <p>Drought index combining rainfall and reservoir storage, mapped across Telangana's districts.</p>
+      <sub>33 districts · 2024–2025</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3>🏥 <a href="https://github.com/Charan1845/healthcare-analytics-dashboard">PulseScore</a></h3>
+      <sub>Infosys Springboard capstone</sub>
+      <p>Interactive analytics for healthcare infrastructure planning: capacity, workforce and readiness across India.</p>
+      <sub>Streamlit · Pandas · Plotly</sub>
+    </td>
+  </tr>
+</table>
+
+<sub>Each project below opens to the problem it solves, how it was approached, and how it was checked.</sub>
+
+---
+
+### 🎓 [AdmitPath](https://github.com/Charan1845/admitpath) &nbsp;·&nbsp; <sub>33,560 official cutoffs · 15 MCP tools · 48 tests · ~10–40 ms per answer</sub>
+
+> *An Alexa+ add-on that guides families through engineering admissions — built for the Amazon Developer Challenge*
+
+`Python` · `MCP (spec 2025-11-25)` · `Starlette` · `SQLite` · `pdfplumber` · `JavaScript` · `pytest`
 
 <details>
-<summary><b>Languages, data, web, backend and tooling</b> — click to expand</summary>
+<summary><b>How it works</b></summary>
 
 <br>
 
-**Languages**  
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge) ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-
-**Data & Visualisation**  
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge) ![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge) ![GeoPandas](https://img.shields.io/badge/GeoPandas-139C5A?style=for-the-badge&logo=geopandas&logoColor=white)
-
-**Web & Machine Learning**  
-![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
-**Backend & Databases**  
-![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white) ![REST APIs](https://img.shields.io/badge/REST_APIs-85EA2D?style=for-the-badge&logo=swagger&logoColor=black) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
-
-**Tools & Hosting**  
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white) ![Render](https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white) ![Neon](https://img.shields.io/badge/Neon-00E599?style=for-the-badge&logo=neon&logoColor=black)
+- **Problem** — After JEE, families face counselling: over a hundred JoSAA institutes, hundreds of branches, home-state quotas, category ranks, female-only seats, several rounds, and words like float and slide. Many Telangana colleges (CBIT, VNR, BVRIT) aren't in JoSAA at all and use a different exam. Most families decide from scattered tables and coaching-centre advice.
+- **Approach** — Official data only: 33,560 JoSAA final-round opening and closing ranks for 2023–2025, downloaded by walking the JoSAA archive form, plus TG EAPCET 2025 last ranks for 165 Telangana colleges parsed from the government PDFs. For each program, it picks the seats the student is actually eligible for and compares their rank with a trend-adjusted expected cutoff, sorting options into Safe, Target and Reach — and every answer shows the numbers behind it.
+- **Evaluation** — Tests for every rule that's easy to get wrong: home-state quota by class-12 state, Goa and J&K special quotas, category and female-only seats, Telangana categories, spoken names ("NITW", "triple IT Allahabad", two different BVRIT campuses). Testing caught real bugs, such as "ECE" first matching Electrical and Electronics.
+- **Engineering** — A self-hosted MCP server with 15 typed tools over stateless Streamable HTTP, answering from local data in about 10–40 ms (Alexa+ expects under 500 ms). A simulated Alexa+ web page acts as a real MCP client with voice in and out, and shows every JSON-RPC request and response.
 
 </details>
 
 ---
-
-## 🚀 Featured Work
-
-<sub>Each project opens to the problem it solves, how it was approached, and how it was checked.</sub>
-
-<br>
 
 ### 🧾 [LEKHA](https://github.com/Charan1845/lekha) &nbsp;·&nbsp; <sub>93.1% match rate · 0 false positives · 127 tests</sub>
 
@@ -158,6 +198,32 @@ Approach:  Fewer projects, finished properly
 
 ---
 
+## 🛠️ Tech Stack
+
+<details>
+<summary><b>Languages, data, web, backend and tooling</b> — click to expand</summary>
+
+<br>
+
+**Languages**  
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black) ![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge) ![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
+
+**Data & Visualisation**  
+![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white) ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white) ![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge) ![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge) ![GeoPandas](https://img.shields.io/badge/GeoPandas-139C5A?style=for-the-badge&logo=geopandas&logoColor=white)
+
+**Web, AI & Machine Learning**  
+![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white) ![Flask](https://img.shields.io/badge/Flask-000000?style=for-the-badge&logo=flask&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white) ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white) ![MCP](https://img.shields.io/badge/MCP-000000?style=for-the-badge&logo=modelcontextprotocol&logoColor=white) ![Alexa+](https://img.shields.io/badge/Alexa%2B-00CAFF?style=for-the-badge&logo=amazonalexa&logoColor=white) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+
+**Backend & Databases**  
+![Node.js](https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white) ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white) ![REST APIs](https://img.shields.io/badge/REST_APIs-85EA2D?style=for-the-badge&logo=swagger&logoColor=black) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white) ![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+
+**Tools & Hosting**  
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white) ![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white) ![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge) ![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white) ![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white) ![Render](https://img.shields.io/badge/Render-000000?style=for-the-badge&logo=render&logoColor=white) ![Neon](https://img.shields.io/badge/Neon-00E599?style=for-the-badge&logo=neon&logoColor=black)
+
+</details>
+
+---
+
 ## 🎓 Experience
 
 **Infosys Springboard — Virtual Internship 6.0**  
@@ -177,6 +243,7 @@ Built the Healthcare Operations Analytics Dashboard as the capstone deliverable,
 | ✅ | A professional internship | Infosys Springboard 6.0 — healthcare analytics capstone delivered |
 | ✅ | Machine learning, actually served | Age & Gender — detector chosen on latency, not only accuracy, and it runs in a browser |
 | ✅ | Full stack, deployed | [DevGear](https://devgear.onrender.com) — REST API, PostgreSQL, payments, 149 tests, live |
+| ✅ | Voice assistants and MCP | [AdmitPath](https://github.com/Charan1845/admitpath) — an Alexa+ MCP server on 33,560 official cutoffs, 48 tests |
 | 🚧 | DSA and system design | The gap between *it works* and *it holds up under load* |
 | 🚧 | CV & forecasting, from fundamentals | [Crowdcast](https://github.com/Charan1845/crowdcast) — learning CV/ML in public, one concept applied and logged per day |
 | ⏳ | Production habits | CI, observability, load testing — applied to the projects that already exist rather than to new ones |
@@ -194,6 +261,7 @@ Built the Healthcare Operations Analytics Dashboard as the capstone deliverable,
 <p align="center">
   <sub>
     <a href="https://github.com/Charan1845?tab=repositories">Repositories</a> &nbsp;·&nbsp;
-    <a href="https://devgear.onrender.com">DevGear, live</a>
+    <a href="https://devgear.onrender.com">DevGear, live</a> &nbsp;·&nbsp;
+    <a href="https://github.com/Charan1845/admitpath">AdmitPath</a>
   </sub>
 </p>
