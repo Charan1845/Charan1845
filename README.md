@@ -3,8 +3,23 @@
 <h3 align="center">Python · Data Visualisation · Interactive Dashboards · AI/DL</h3>
 
 <p align="center">
+  I turn messy public data into tools people can make decisions with — dashboards, AI agents and MCP servers —<br>
+  and I test where they break.
+</p>
+
+<p align="center">
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=22&pause=1200&color=38BDAE&center=true&vCenter=true&width=620&lines=Building+data-driven+web+applications;Turning+messy+datasets+into+decisions;Building+MCP+servers+for+Alexa%2B;Solving+DSA+problems;Learning+system+design" alt="Typing SVG" />
 </p>
+
+---
+
+## ⭐ Highlights
+
+- 🎓 **AdmitPath** — an Alexa+ add-on (MCP server) built for the Amazon Developer Challenge, answering from **33,560 official JoSAA cutoffs** and **165 Telangana colleges**, with 48 tests.
+- 🧾 **LEKHA** — **93.1% settlement match rate with 0 false positives** on held-out months. An LLM scored 0/9 on the matching itself, so code does the maths and the LLM only explains.
+- 🛒 **DevGear** — a [live](https://devgear.onrender.com) full-stack shop where the last item can only be sold once, proven by a concurrent-checkout test; **149 tests**.
+- 🔬 **Age & Gender Detection** — picked a face detector **~100× faster on CPU** so it runs in real time, in a browser.
+- 🏢 **Infosys Springboard Virtual Internship 6.0** — healthcare operations analytics platform delivered as the capstone.
 
 ---
 
@@ -21,13 +36,12 @@ Approach:  Fewer projects, finished properly
 - 📊 I build **data-driven web applications** — mostly turning unstructured public datasets into interfaces people can explore and make decisions with.
 - 🎙️ Latest work is **voice + MCP**: an Alexa+ add-on that guides families through engineering admissions using official cutoff data.
 - 🗺️ Earlier work is **geospatial**: mapping drought risk across Telangana and healthcare capacity across India.
-- 🔬 Completed the **Infosys Springboard Virtual Internship 6.0**, delivering a healthcare operations analytics platform as the capstone.
 - 🧠 Currently going deeper on **DSA** and **system design**.
 - 🎯 Focused on shipping fewer, more complete projects rather than many partial ones.
 
 ---
 
-## 🚀 Featured Work at a Glance
+## 🚀 Featured Work
 
 <table>
   <tr>
