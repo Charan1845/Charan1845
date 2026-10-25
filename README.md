@@ -43,54 +43,9 @@ Approach:  Fewer projects, finished properly
 
 ## 🚀 Featured Work
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🎓 <a href="https://github.com/Charan1845/admitpath">AdmitPath</a></h3>
-      <sub><b>NEW</b> · Alexa+ add-on · MCP server</sub>
-      <p>Tells a family which engineering colleges their child can realistically get — by voice, from official JoSAA and TG EAPCET cutoffs.</p>
-      <sub>33,560 official cutoffs · 15 MCP tools · 48 tests</sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🧾 <a href="https://github.com/Charan1845/lekha">LEKHA</a></h3>
-      <sub>AI finance controller</sub>
-      <p>Reconciles Razorpay settlements against bank statements; code does the maths, the LLM only explains.</p>
-      <sub>93.1% match rate · 0 false positives · 127 tests</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🛒 <a href="https://github.com/Charan1845/ecommerce-website">DevGear</a></h3>
-      <sub>Full stack · <a href="https://devgear.onrender.com">live demo</a></sub>
-      <p>An online shop where the last item in stock can only be sold once, even under simultaneous checkouts.</p>
-      <sub>149 tests · deployed on Render + Neon</sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🔬 <a href="https://github.com/Charan1845/Age-and-Gender-Recognition">Age & Gender Detection</a></h3>
-      <sub>Computer vision</sub>
-      <p>Estimates age and gender from a photo or live camera capture, with a detector chosen for real-time CPU speed.</p>
-      <sub>runs on CPU, in a browser</sub>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🌊 <a href="https://github.com/Charan1845/hydro-vision">Hydro Vision</a></h3>
-      <sub>Geospatial</sub>
-      <p>Drought index combining rainfall and reservoir storage, mapped across Telangana's districts.</p>
-      <sub>33 districts · 2024–2025</sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🏥 <a href="https://github.com/Charan1845/healthcare-analytics-dashboard">PulseScore</a></h3>
-      <sub>Infosys Springboard capstone</sub>
-      <p>Interactive analytics for healthcare infrastructure planning: capacity, workforce and readiness across India.</p>
-      <sub>Streamlit · Pandas · Plotly</sub>
-    </td>
-  </tr>
-</table>
+<sub>Each project opens to the problem it solves, how it was approached, and how it was checked.</sub>
 
-<sub>Each project below opens to the problem it solves, how it was approached, and how it was checked.</sub>
-
----
+<br>
 
 ### 🎓 [AdmitPath](https://github.com/Charan1845/admitpath) &nbsp;·&nbsp; <sub>33,560 official cutoffs · 15 MCP tools · 48 tests · ~10–40 ms per answer</sub>
 
