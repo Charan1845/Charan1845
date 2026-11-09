@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="10" viewBox="0 0 1200 10" role="img" aria-label="">
+<defs>
+  <linearGradient id="g" x1="0" x2="1">
+    <stop offset="0" stop-color="#38BDAE" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#38BDAE" stop-opacity="0.55"/>
+    <stop offset="1" stop-color="#38BDAE" stop-opacity="0"/>
+  </linearGradient>
+  <linearGradient id="s" x1="0" x2="1">
+    <stop offset="0" stop-color="#7EE7D8" stop-opacity="0"/>
+    <stop offset="0.5" stop-color="#7EE7D8" stop-opacity="1"/>
+    <stop offset="1" stop-color="#7EE7D8" stop-opacity="0"/>
+  </linearGradient>
+</defs>
+<style>.shine { animation: move 4s ease-in-out infinite; } @keyframes move { from { transform: translateX(-240px); } to { transform: translateX(1200px); } }</style>
+<rect x="0" y="4" width="1200" height="2" rx="1" fill="url(#g)"/>
+<rect class="shine" x="0" y="3" width="240" height="4" rx="2" fill="url(#s)"/>
+</svg>

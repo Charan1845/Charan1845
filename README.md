@@ -11,7 +11,7 @@
   <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&weight=500&size=22&pause=1200&color=38BDAE&center=true&vCenter=true&width=620&lines=Building+data-driven+web+applications;Turning+messy+datasets+into+decisions;Building+MCP+servers+for+Alexa%2B;Solving+DSA+problems;Learning+system+design" alt="Typing SVG" />
 </p>
 
----
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 ## 👨‍💻 About Me
 
@@ -29,7 +29,7 @@ Approach:  Fewer projects, finished properly
 - 🧠 Currently going deeper on **DSA** and **system design**.
 - 🎯 Focused on shipping fewer, more complete projects rather than many partial ones.
 
----
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 ## 🚀 Featured Work
 
@@ -40,6 +40,8 @@ Approach:  Fewer projects, finished properly
 ### 🎓 [AdmitPath](https://github.com/Charan1845/admitpath) &nbsp;·&nbsp; <sub>33,560 official cutoffs · 15 MCP tools · 48 tests · ~10–40 ms per answer</sub>
 
 > *An Alexa+ add-on that guides families through engineering admissions — built for the Amazon Developer Challenge*
+
+<p align="center"><img src="https://github.com/Charan1845/admitpath/raw/main/assets/admitpath-demo.gif" width="85%" alt="AdmitPath demo: asking the Alexa+ add-on about engineering admissions" /></p>
 
 `Python` · `MCP (spec 2025-11-25)` · `Starlette` · `SQLite` · `pdfplumber` · `JavaScript` · `pytest`
 
@@ -55,7 +57,7 @@ Approach:  Fewer projects, finished properly
 
 </details>
 
----
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 ### 🧾 [LEKHA](https://github.com/Charan1845/lekha) &nbsp;·&nbsp; <sub>93.1% match rate · 0 false positives · 127 tests</sub>
 
@@ -75,11 +77,13 @@ Approach:  Fewer projects, finished properly
 
 </details>
 
----
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 ### 🛒 [DevGear](https://github.com/Charan1845/ecommerce-website) &nbsp;·&nbsp; [**live demo**](https://devgear.onrender.com) &nbsp;·&nbsp; <sub>149 tests · deployed</sub>
 
 > *An online shop where the last item in stock can only be sold once*
+
+<p align="center"><a href="https://devgear.onrender.com"><img src="assets/projects/devgear.png" width="85%" alt="DevGear live site" /></a></p>
 
 `Node.js` · `Express` · `PostgreSQL` · `JavaScript` · `REST`
 
@@ -95,7 +99,7 @@ Approach:  Fewer projects, finished properly
 
 </details>
 
----
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 ### 🔬 [Age & Gender Detection](https://github.com/Charan1845/Age-and-Gender-Recognition) &nbsp;·&nbsp; <sub>runs on CPU, in a browser</sub>
 
@@ -115,11 +119,13 @@ Approach:  Fewer projects, finished properly
 
 </details>
 
----
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 ### 👥 [Crowdcast](https://github.com/Charan1845/crowdcast) &nbsp;·&nbsp; <sub>test MAE 79.6 on ShanghaiTech Part A · in progress</sub>
 
 > *Counts the people in a crowd photo, then (next) recommends the best time to visit a place*
+
+<p align="center"><img src="assets/projects/crowdcast.png" width="85%" alt="Crowdcast test image: photo, ground-truth density map (997 people), predicted density map (830 people)" /><br><sub>Real test output: a dense ShanghaiTech image, its labelled density map (997 people) and the model's prediction (830)</sub></p>
 
 `Python` · `TensorFlow/Keras` · `VGG-16 transfer learning` · `NumPy` · `Jupyter`
 
@@ -135,7 +141,7 @@ Approach:  Fewer projects, finished properly
 
 </details>
 
----
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 ### 🌊 [Hydro Vision](https://github.com/Charan1845/hydro-vision) &nbsp;·&nbsp; <sub>33 districts · 2024–2025</sub>
 
@@ -155,7 +161,7 @@ Approach:  Fewer projects, finished properly
 
 </details>
 
----
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 ### 🏥 [PulseScore](https://github.com/Charan1845/healthcare-analytics-dashboard) &nbsp;·&nbsp; <sub>Infosys Springboard capstone</sub>
 
@@ -175,12 +181,14 @@ Approach:  Fewer projects, finished properly
 
 </details>
 
----
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 ## 🛠️ Tech Stack
 
+<p align="center"><img src="assets/tech-icons.svg" width="70%" alt="Python, Java, JavaScript, C, HTML, CSS, TensorFlow, OpenCV, Flask, Node.js, Express, PostgreSQL, SQLite, Git, GitHub, VS Code" /></p>
+
 <details>
-<summary><b>Languages, data, web, backend and tooling</b> — click to expand</summary>
+<summary><b>Full list: languages, data, web, backend and tooling</b> — click to expand</summary>
 
 <br>
 
@@ -201,7 +209,7 @@ Approach:  Fewer projects, finished properly
 
 </details>
 
----
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 ## 🎓 Experience
 
@@ -210,7 +218,7 @@ Approach:  Fewer projects, finished properly
 
 Built the Healthcare Operations Analytics Dashboard as the capstone deliverable, covering data cleaning, metric design and interactive visualisation.
 
----
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 ## 📈 Where this is going
 
@@ -227,7 +235,7 @@ Built the Healthcare Operations Analytics Dashboard as the capstone deliverable,
 | 🚧 | Computer vision & forecasting | [Crowdcast](https://github.com/Charan1845/crowdcast) — crowd counting at test MAE 79.6; best-time-to-visit forecasting next |
 | ⏳ | Production habits | CI, observability, load testing — applied to the projects that already exist rather than to new ones |
 
----
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 ## 🔥 Streak Stats
 
@@ -235,7 +243,7 @@ Built the Healthcare Operations Analytics Dashboard as the capstone deliverable,
   <img src="https://streak-stats.demolab.com/?user=Charan1845&theme=dark&hide_border=true&background=00000000&ring=38BDAE&fire=38BDAE&currStreakLabel=38BDAE&sideLabels=FFFFFF&dates=8B949E" alt="GitHub streak stats" />
 </p>
 
----
+<p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
 <img src="assets/footer.svg" width="100%" alt="" />
 
