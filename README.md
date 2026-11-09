@@ -13,47 +13,6 @@
 
 ---
 
-## ⭐ Highlights
-
-<table>
-<tr>
-<td width="33%" align="center" valign="top">
-<h2>33,560</h2>
-<b>🎓 <a href="https://github.com/Charan1845/admitpath">AdmitPath</a></b><br>
-<sub>official JoSAA cutoffs behind an Alexa+ MCP server for the Amazon Developer Challenge · 48 tests</sub>
-</td>
-<td width="33%" align="center" valign="top">
-<h2>93.1%</h2>
-<b>🧾 <a href="https://github.com/Charan1845/lekha">LEKHA</a></b><br>
-<sub>settlement match rate, 0 false positives. An LLM scored 0/9 at matching, so code does the maths</sub>
-</td>
-<td width="33%" align="center" valign="top">
-<h2>149 tests</h2>
-<b>🛒 <a href="https://devgear.onrender.com">DevGear, live</a></b><br>
-<sub>full-stack shop where the last item can only be sold once, proven by a concurrent-checkout test</sub>
-</td>
-</tr>
-<tr>
-<td width="33%" align="center" valign="top">
-<h2>~100×</h2>
-<b>🔬 <a href="https://github.com/Charan1845/Age-and-Gender-Recognition">Age & Gender</a></b><br>
-<sub>faster face detector on CPU, chosen so it runs in real time in a browser</sub>
-</td>
-<td width="33%" align="center" valign="top">
-<h2>MAE 79.6</h2>
-<b>👥 <a href="https://github.com/Charan1845/crowdcast">Crowdcast</a></b><br>
-<sub>people counted per crowd photo (VGG-16 CSRNet), 74% lower error than the baseline · in progress</sub>
-</td>
-<td width="33%" align="center" valign="top">
-<h2>Capstone</h2>
-<b>🏢 Infosys Springboard 6.0</b><br>
-<sub>healthcare operations analytics platform, delivered in the virtual internship</sub>
-</td>
-</tr>
-</table>
-
----
-
 ## 👨‍💻 About Me
 
 ```yaml
