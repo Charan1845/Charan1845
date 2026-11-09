@@ -1,6 +1,6 @@
-<h1 align="center">Hi, I'm Charan 👋</h1>
-
-<h3 align="center">Python · Data Visualisation · Interactive Dashboards · AI/DL</h3>
+<p align="center">
+  <img src="assets/banner.svg" width="100%" alt="Hi, I'm Charan. Python, data visualisation, interactive dashboards, AI/DL." />
+</p>
 
 <p align="center">
   I turn messy public data into tools people can make decisions with — dashboards, AI agents and MCP servers —<br>
@@ -15,11 +15,42 @@
 
 ## ⭐ Highlights
 
-- 🎓 **AdmitPath** — an Alexa+ add-on (MCP server) built for the Amazon Developer Challenge, answering from **33,560 official JoSAA cutoffs** and **165 Telangana colleges**, with 48 tests.
-- 🧾 **LEKHA** — **93.1% settlement match rate with 0 false positives** on held-out months. An LLM scored 0/9 on the matching itself, so code does the maths and the LLM only explains.
-- 🛒 **DevGear** — a [live](https://devgear.onrender.com) full-stack shop where the last item can only be sold once, proven by a concurrent-checkout test; **149 tests**.
-- 🔬 **Age & Gender Detection** — picked a face detector **~100× faster on CPU** so it runs in real time, in a browser.
-- 🏢 **Infosys Springboard Virtual Internship 6.0** — healthcare operations analytics platform delivered as the capstone.
+<table>
+<tr>
+<td width="33%" align="center" valign="top">
+<h2>33,560</h2>
+<b>🎓 <a href="https://github.com/Charan1845/admitpath">AdmitPath</a></b><br>
+<sub>official JoSAA cutoffs behind an Alexa+ MCP server for the Amazon Developer Challenge · 48 tests</sub>
+</td>
+<td width="33%" align="center" valign="top">
+<h2>93.1%</h2>
+<b>🧾 <a href="https://github.com/Charan1845/lekha">LEKHA</a></b><br>
+<sub>settlement match rate, 0 false positives. An LLM scored 0/9 at matching, so code does the maths</sub>
+</td>
+<td width="33%" align="center" valign="top">
+<h2>149 tests</h2>
+<b>🛒 <a href="https://devgear.onrender.com">DevGear, live</a></b><br>
+<sub>full-stack shop where the last item can only be sold once, proven by a concurrent-checkout test</sub>
+</td>
+</tr>
+<tr>
+<td width="33%" align="center" valign="top">
+<h2>~100×</h2>
+<b>🔬 <a href="https://github.com/Charan1845/Age-and-Gender-Recognition">Age & Gender</a></b><br>
+<sub>faster face detector on CPU, chosen so it runs in real time in a browser</sub>
+</td>
+<td width="33%" align="center" valign="top">
+<h2>MAE 79.6</h2>
+<b>👥 <a href="https://github.com/Charan1845/crowdcast">Crowdcast</a></b><br>
+<sub>people counted per crowd photo (VGG-16 CSRNet), 74% lower error than the baseline · in progress</sub>
+</td>
+<td width="33%" align="center" valign="top">
+<h2>Capstone</h2>
+<b>🏢 Infosys Springboard 6.0</b><br>
+<sub>healthcare operations analytics platform, delivered in the virtual internship</sub>
+</td>
+</tr>
+</table>
 
 ---
 
@@ -28,7 +59,7 @@
 ```yaml
 Name:      Charan
 Focus:     DSA, System Design
-Building:  AI agents, MCP servers, interactive dashboards, and analytics tools
+Building:  AI agents, MCP servers, computer vision, interactive dashboards
 Learning:  DSA, System Design, backend development
 Approach:  Fewer projects, finished properly
 ```
@@ -127,6 +158,26 @@ Approach:  Fewer projects, finished properly
 
 ---
 
+### 👥 [Crowdcast](https://github.com/Charan1845/crowdcast) &nbsp;·&nbsp; <sub>test MAE 79.6 on ShanghaiTech Part A · in progress</sub>
+
+> *Counts the people in a crowd photo, then (next) recommends the best time to visit a place*
+
+`Python` · `TensorFlow/Keras` · `VGG-16 transfer learning` · `NumPy` · `Jupyter`
+
+<details>
+<summary><b>How it works</b></summary>
+
+<br>
+
+- **Problem** — In a dense crowd, heads overlap so much that drawing a box around every person fails. ShanghaiTech Part A images hold 33 to 3,138 people each.
+- **Approach** — CSRNet density estimation: a VGG-16 front end pretrained on ImageNet plus dilated convolution layers predict a density map, and the count is its sum. Labels come from head annotations turned into Gaussian blobs.
+- **Evaluation** — On the 182 test images: MAE 79.6 / RMSE 112.2, against 301.8 / 368.6 for always guessing the average and 68.2 / 115.0 for the published paper. A second version beat the first (MAE 94.3) at every crowd size; the notebook reports where it still overcounts and undercounts.
+- **Engineering** — Trained on a laptop CPU, with overfitting controls: validation split, best-epoch checkpoint, early stopping, crop/flip augmentation, staged VGG-16 fine-tuning and learning-rate halving. Switching off TensorFlow's oneDNN cut full-image inference from ~60 s to ~1 s.
+
+</details>
+
+---
+
 ### 🌊 [Hydro Vision](https://github.com/Charan1845/hydro-vision) &nbsp;·&nbsp; <sub>33 districts · 2024–2025</sub>
 
 > *Geospatial water resource monitoring for Telangana*
@@ -214,7 +265,7 @@ Built the Healthcare Operations Analytics Dashboard as the capstone deliverable,
 | ✅ | Full stack, deployed | [DevGear](https://devgear.onrender.com) — REST API, PostgreSQL, payments, 149 tests, live |
 | ✅ | Voice assistants and MCP | [AdmitPath](https://github.com/Charan1845/admitpath) — an Alexa+ MCP server on 33,560 official cutoffs, 48 tests |
 | 🚧 | DSA and system design | The gap between *it works* and *it holds up under load* |
-| 🚧 | CV & forecasting, from fundamentals | [Crowdcast](https://github.com/Charan1845/crowdcast) — learning CV/ML in public, one concept applied and logged per day |
+| 🚧 | Computer vision & forecasting | [Crowdcast](https://github.com/Charan1845/crowdcast) — crowd counting at test MAE 79.6; best-time-to-visit forecasting next |
 | ⏳ | Production habits | CI, observability, load testing — applied to the projects that already exist rather than to new ones |
 
 ---
@@ -226,6 +277,8 @@ Built the Healthcare Operations Analytics Dashboard as the capstone deliverable,
 </p>
 
 ---
+
+<img src="assets/footer.svg" width="100%" alt="" />
 
 <p align="center">
   <sub>

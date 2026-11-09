@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120" role="img" aria-label="">
+<style>
+  .w1 { animation: drift 9s linear infinite; } .w2 { animation: drift 13s linear infinite reverse; } .w3 { animation: drift 17s linear infinite; }
+  @keyframes drift { from { transform: translateX(0); } to { transform: translateX(-600px); } }
+</style>
+<defs><clipPath id="c"><rect width="1200" height="120"/></clipPath></defs>
+<g clip-path="url(#c)">
+<path class="w1" fill="#38BDAE" fill-opacity="0.18" d="M0 60 Q75 34 150 60 T300 60 Q375 34 450 60 T600 60 Q675 34 750 60 T900 60 Q975 34 1050 60 T1200 60 Q1275 34 1350 60 T1500 60 Q1575 34 1650 60 T1800 60 L1800 120 L0 120 Z"/><path class="w2" fill="#38BDAE" fill-opacity="0.28" d="M0 75 Q75 55 150 75 T300 75 Q375 55 450 75 T600 75 Q675 55 750 75 T900 75 Q975 55 1050 75 T1200 75 Q1275 55 1350 75 T1500 75 Q1575 55 1650 75 T1800 75 L1800 120 L0 120 Z"/><path class="w3" fill="#38BDAE" fill-opacity="0.5" d="M0 90 Q75 76 150 90 T300 90 Q375 76 450 90 T600 90 Q675 76 750 90 T900 90 Q975 76 1050 90 T1200 90 Q1275 76 1350 90 T1500 90 Q1575 76 1650 90 T1800 90 L1800 120 L0 120 Z"/>
+</g>
+</svg>
