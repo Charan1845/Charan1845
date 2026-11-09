@@ -41,8 +41,6 @@ Approach:  Fewer projects, finished properly
 
 > *An Alexa+ add-on that guides families through engineering admissions — built for the Amazon Developer Challenge*
 
-<p align="center"><img src="https://github.com/Charan1845/admitpath/raw/main/assets/admitpath-demo.gif" width="85%" alt="AdmitPath demo: asking the Alexa+ add-on about engineering admissions" /></p>
-
 `Python` · `MCP (spec 2025-11-25)` · `Starlette` · `SQLite` · `pdfplumber` · `JavaScript` · `pytest`
 
 <details>
@@ -83,8 +81,6 @@ Approach:  Fewer projects, finished properly
 
 > *An online shop where the last item in stock can only be sold once*
 
-<p align="center"><a href="https://devgear.onrender.com"><img src="assets/projects/devgear.png" width="85%" alt="DevGear live site" /></a></p>
-
 `Node.js` · `Express` · `PostgreSQL` · `JavaScript` · `REST`
 
 <details>
@@ -124,8 +120,6 @@ Approach:  Fewer projects, finished properly
 ### 👥 [Crowdcast](https://github.com/Charan1845/crowdcast) &nbsp;·&nbsp; <sub>test MAE 79.6 on ShanghaiTech Part A · in progress</sub>
 
 > *Counts the people in a crowd photo, then (next) recommends the best time to visit a place*
-
-<p align="center"><img src="assets/projects/crowdcast.png" width="85%" alt="Crowdcast test image: photo, ground-truth density map (997 people), predicted density map (830 people)" /><br><sub>Real test output: a dense ShanghaiTech image, its labelled density map (997 people) and the model's prediction (830)</sub></p>
 
 `Python` · `TensorFlow/Keras` · `VGG-16 transfer learning` · `NumPy` · `Jupyter`
 
