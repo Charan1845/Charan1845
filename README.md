@@ -117,21 +117,21 @@ Approach:  Fewer projects, finished properly
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
-### 👥 [Crowdcast](https://github.com/Charan1845/crowdcast) &nbsp;·&nbsp; <sub>test MAE 79.6 on ShanghaiTech Part A · in progress</sub>
+### 👥 [Crowdcast](https://github.com/Charan1845/crowdcast) &nbsp;·&nbsp; [**live demo**](https://crowdcast-charan.streamlit.app) &nbsp;·&nbsp; <sub>MAE 13.4 people · metro crowds 14% better than baseline</sub>
 
-> *Counts the people in a crowd photo, then (next) recommends the best time to visit a place*
+> *Counts the people in a crowd photo, and tells you the best time to travel from a Bengaluru metro station*
 
-`Python` · `TensorFlow/Keras` · `VGG-16 transfer learning` · `NumPy` · `Jupyter`
+`Python` · `TensorFlow/Keras` · `VGG-16 transfer learning` · `XGBoost` · `Streamlit`
 
 <details>
 <summary><b>How it works</b></summary>
 
 <br>
 
-- **Problem** — In a dense crowd, heads overlap so much that drawing a box around every person fails. ShanghaiTech Part A images hold 33 to 3,138 people each.
-- **Approach** — CSRNet density estimation: a VGG-16 front end pretrained on ImageNet plus dilated convolution layers predict a density map, and the count is its sum. Labels come from head annotations turned into Gaussian blobs.
-- **Evaluation** — On the 182 test images: MAE 79.6 / RMSE 112.2, against 301.8 / 368.6 for always guessing the average and 68.2 / 115.0 for the published paper. A second version beat the first (MAE 94.3) at every crowd size; the notebook reports where it still overcounts and undercounts.
-- **Engineering** — Trained on a laptop CPU, with overfitting controls: validation split, best-epoch checkpoint, early stopping, crop/flip augmentation, staged VGG-16 fine-tuning and learning-rate halving. Switching off TensorFlow's oneDNN cut full-image inference from ~60 s to ~1 s.
+- **Problem** — In a dense crowd, heads overlap so much that drawing a box around every person fails. And a crowd count on its own doesn't tell you when a place will be quieter.
+- **Approach** — CSRNet density estimation (a VGG-16 front end pretrained on ImageNet plus dilated convolutions) predicts a density map whose sum is the count. For the metro, an XGBoost model learns how many people enter each of 83 Namma Metro stations every hour, from real BMRCL ridership released through RTI. Upload a station photo: it counts the people, reads the time from the photo, and suggests the least crowded hour.
+- **Evaluation** — Counting MAE 13.4 on ShanghaiTech B street scenes (baseline 72.0, published 10.6) and 79.6 on dense Part A. On an unseen test week, the metro model's error is 14% lower than "same hour last week". An earlier version that did worse than that baseline is documented, not hidden.
+- **Engineering** — Trained on a laptop CPU, with overfitting controls (validation split, best-epoch checkpoint, early stopping, augmentation, staged fine-tuning). Switching off TensorFlow's oneDNN cut inference from ~60 s to ~1 s. Deployed as a two-page Streamlit app, with the weights served from a GitHub Release.
 
 </details>
 
@@ -225,8 +225,8 @@ Built the Healthcare Operations Analytics Dashboard as the capstone deliverable,
 | ✅ | Machine learning, actually served | Age & Gender — detector chosen on latency, not only accuracy, and it runs in a browser |
 | ✅ | Full stack, deployed | [DevGear](https://devgear.onrender.com) — REST API, PostgreSQL, payments, 149 tests, live |
 | ✅ | Voice assistants and MCP | [AdmitPath](https://github.com/Charan1845/admitpath) — an Alexa+ MCP server on 33,560 official cutoffs, 48 tests |
+| ✅ | Computer vision & forecasting, deployed | [Crowdcast](https://crowdcast-charan.streamlit.app) — people counting (MAE 13.4) plus best time to travel by Namma Metro, live |
 | 🚧 | DSA and system design | The gap between *it works* and *it holds up under load* |
-| 🚧 | Computer vision & forecasting | [Crowdcast](https://github.com/Charan1845/crowdcast) — crowd counting at test MAE 79.6; best-time-to-visit forecasting next |
 | ⏳ | Production habits | CI, observability, load testing — applied to the projects that already exist rather than to new ones |
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
@@ -245,6 +245,7 @@ Built the Healthcare Operations Analytics Dashboard as the capstone deliverable,
   <sub>
     <a href="https://github.com/Charan1845?tab=repositories">Repositories</a> &nbsp;·&nbsp;
     <a href="https://devgear.onrender.com">DevGear, live</a> &nbsp;·&nbsp;
+    <a href="https://crowdcast-charan.streamlit.app">Crowdcast, live</a> &nbsp;·&nbsp;
     <a href="https://github.com/Charan1845/admitpath">AdmitPath</a>
   </sub>
 </p>
