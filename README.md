@@ -117,7 +117,7 @@ Approach:  Fewer projects, finished properly
 
 <p align="center"><img src="assets/divider.svg" width="100%" alt="" /></p>
 
-### 👥 [Crowdcast](https://github.com/Charan1845/crowdcast) &nbsp;·&nbsp; [**live demo**](https://crowdcast-charan.streamlit.app) &nbsp;·&nbsp; <sub>46% lower error on everyday group photos</sub>
+### 👥 [Crowdcast](https://github.com/Charan1845/crowdcast) &nbsp;·&nbsp; [**live demo**](https://crowdcast-charan.streamlit.app) &nbsp;·&nbsp; <sub>47% lower error on everyday group photos</sub>
 
 > *Counts the people in any photo, from a small group to a packed crowd, and picks the right method by itself*
 
@@ -129,8 +129,8 @@ Approach:  Fewer projects, finished properly
 <br>
 
 - **Problem** — In a dense crowd, heads overlap so much that drawing a box around every person fails. But a crowd model trained on dense scenes overcounts an ordinary group photo: 8 people came out as 12–18.
-- **Approach** — CSRNet density estimation (a VGG-16 front end pretrained on ImageNet plus dilated convolutions) predicts a density map whose sum is the count. A hybrid router sends small groups to an EfficientDet-Lite4 person detector, which boxes each person, and crowds to CSRNet.
-- **Evaluation** — On held-out everyday photos of 1–13 people, the hybrid cut MAE from 6.52 to 3.53. The trade-off is reported too: because it picks the crowd type itself, MAE moved from 13.4 to 17.0 on ShanghaiTech B and from 79.6 to 87.0 on dense Part A.
+- **Approach** — CSRNet density estimation (a VGG-16 front end pretrained on ImageNet plus dilated convolutions) predicts a density map whose sum is the count. A hybrid router sends small groups to an EfficientDet-Lite4 person detector with overlapping tiles, which boxes each person, and crowds to CSRNet.
+- **Evaluation** — On held-out everyday photos of 1–13 people, the hybrid cut MAE from 6.52 to 3.43, and on 26 photos of 14–38 people, tiled detection cut it from 25.4 to 18.2. The trade-off is reported too: because it picks the crowd type itself, MAE moved from 13.4 to 16.3 on ShanghaiTech B and from 79.6 to 86.9 on dense Part A.
 - **Engineering** — Trained on a laptop CPU, with overfitting controls (validation split, best-epoch checkpoint, early stopping, augmentation, staged fine-tuning). Switching off TensorFlow's oneDNN cut inference from ~60 s to ~1 s, and a lighter detector plus compiled graphs cut peak memory from 3.5 GB to 1.24 GB so it runs on free hosting. Deployed on Streamlit, with the weights served from a GitHub Release.
 
 </details>
